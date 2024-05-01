@@ -1,0 +1,6 @@
+channel: stable
+addons:
+  tor:
+    repository: akrigator/addon-tor
+    target: tor
+    image: ghcr.io/hassio-addons/tor/{arch}
