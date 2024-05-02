@@ -14,6 +14,5 @@ jobs:
         with:
           args: |
             --test \
-            --all \
             --target ./tor \
             --docker-hub ${{ secrets.DOCKERHUB_USERNAME }}
