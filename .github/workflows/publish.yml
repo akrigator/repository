@@ -22,4 +22,4 @@ jobs:
           args: |
             --all \
             --target addon-folder \
-            --docker-hub user-name-or-space-name
+            --docker-hub ${{ secrets.DOCKERHUB_USERNAME }}
