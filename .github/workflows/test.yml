@@ -15,5 +15,5 @@ jobs:
           args: |
             --test \
             --all \
-            --target /data \
+            --target ./tor \
             --docker-hub ${{ secrets.DOCKERHUB_USERNAME }}
