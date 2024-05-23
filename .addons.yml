@@ -1,6 +1,6 @@
 channel: stable
 addons:
   tor:
-    repository: hassio-addons/addon-tor
+    repository: akrigator/addon-tor
     target: tor
-    image: ghcr.io/hassio-addons/tor/{arch}
+    image: ghcr.io/akrigator/addon-tor/{arch}
